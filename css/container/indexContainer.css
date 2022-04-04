@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+/*section1*/
+.container .inner-container .index .section.sec1{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.container .inner-container .index .section.sec1 .sec-con{
+    flex: 0 1 1400px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.container .inner-container .index .section.sec1 .sec-con .gallery{
+    width: 500%;
+    height: inherit;
+    border: 1px solid;
+    position: absolute;
+    left: 0;
+}
+.container .inner-container .index .section.sec1 .sec-con .gallery ul{
+    display: flex;
+    justify-content: center;
+    height: inherit;
+}
+.container .inner-container .index .section.sec1 .sec-con .gallery ul li{
+    width: 20%;
+    height: inherit;
+}
+
+
+.container .inner-container .index .section.sec1 .sec-con .center-btn{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    margin-top: -20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.container .inner-container .index .section.sec1 .sec-con .center-btn span.arrow{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 3px solid #aaa;
+}
+.container .inner-container .index .section.sec1 .sec-con .center-btn span.arrow:hover{
+    background-color: #aaa;
+}
+
+.container .inner-container .index .section.sec1 .sec-con .b-con{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 30px 0;
+}
+.container .inner-container .index .section.sec1 .sec-con .b-con .items>ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.container .inner-container .index .section.sec1 .sec-con .b-con .items>ul>li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #f00;
+}
+
+.container .inner-container .index .section.sec1 .sec-con .b-con .items>ul>li:hover{
+    background-color: #f00;
+}
+
+
+/*section 02*/
+
+.section.sec2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+.section.sec2 .sec-con{
+    flex: 0 1 1200px;
+    height: auto;
+    padding: 20px 0;
+}
+.section.sec2 .sec-con>ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.section.sec2 .sec-con>ul>li{
+    width: 24%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0.5% 0;
+}
+.section.sec2 .sec-con>ul>li img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    filter: grayscale(1.1);
+
+}
+.section.sec2 .sec-con>ul>li img:hover{
+    filter: grayscale(0);   
+}
+

@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.inner-footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.inner-footer .fcon{
+    flex: 0 1 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.inner-footer .right-con{
+    flex: 1;
+    padding: 0 10px;
+}
+.inner-footer .mid-con{
+    flex: 1;
+    padding: 0 10px;
+}
+.inner-footer .left-con{
+    flex: 1;
+    padding: 0 10px;
+}
+
+.inner-footer .fcon h2{
+    color: white;
+}
+.inner-footer .fcon p{
+    color: white;
+}
